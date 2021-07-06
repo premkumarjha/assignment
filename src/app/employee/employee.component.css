@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+  }
+  table.mat-table {
+    border-spacing: 0;
+    width: 56%;
+    margin-left: 20%;
+    margin-top: 7%;
+}
