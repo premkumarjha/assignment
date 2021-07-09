@@ -1,3 +1,28 @@
+  
+    <label style="padding-right: 20px">Question:1</label>
+    <div style="display: inline-block;padding-right: 20px"> 
+      <button  mat-raised-button color="accent" (click)="sortByNameAndJoiningDate()">Sort by name, joining date</button>
+    </div>
+    
+  <mat-form-field appearance="standard" style="display: inline-block;padding-right: 20px" >
+    <mat-label>Question:2</mat-label>
+    <input matInput  placeholder="Enter Name For Search" autocomplete="off"  #input>
+  </mat-form-field>
+  <div style="display: inline-block;padding-right: 20px" > 
+    <button  mat-raised-button color="accent" (click)="searchByName(input)">Search by name</button>
+  </div> 
+
+  <label style="padding-right: 20px">Question:5</label>
+    <div style="display: inline-block;padding-right: 20px"> 
+      <button  mat-raised-button color="accent" (click)="removaAllCandidateFromDevDept()">Remove all candidates from 'Development' department</button>
+    </div> 
+  <div style="margin-left: 30px;margin-top: 40px;">
+
+    <strong style="padding-right: 20px;">Note:</strong>
+    
+    <li>Data is insufficient for 3 rd Question,still logic i have written in .ts file </li>
+    <li>For 4 th question, logic i have written in .ts file </li>
+  </div>
 
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
